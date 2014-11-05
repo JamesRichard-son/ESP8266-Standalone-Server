@@ -1,7 +1,17 @@
 //Leonardo
 Serial_ & dbgTerminal = Serial;
 HardwareSerial & espSerial = Serial1;
-
+ 
+////UNO & M328P
+//#include <SoftwareSerial.h>
+//SoftwareSerial dbgTerminal(10, 11); // RX, TX
+//HardwareSerial & espSerial = Serial;
+ 
+//
+////MEGA2560 
+//HardwareSerial & dbgTerminal = Serial;
+//HardwareSerial & espSerial = Serial1;
+ 
 // set pin numbers:
 const int ledPin =  13;      // the number of the LED pin
 const int ESP8266_CHPD = 4;
