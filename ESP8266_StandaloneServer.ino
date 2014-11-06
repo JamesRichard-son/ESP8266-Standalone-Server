@@ -15,8 +15,8 @@ HardwareSerial & espSerial = Serial1;
 // set pin numbers:
 const int ledPin =  13;      // the number of the LED pin
 const int ESP8266_CHPD = 4;
-const String NetworkSSID = "JWPTest";
-const String NetworkPASS = "XAADEEWW";
+const String NetworkSSID = "CUSTOM SSID HERE";
+const String NetworkPASS = "CUSTOM PASS HERE";
 // Variables will change:
 int ledState = HIGH;             // ledState used to set the LED
 
